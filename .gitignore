@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ── Backend (Django) ──
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/media/
+backend/staticfiles/
+backend/*.log
+
+# ── Frontend (Next.js) ──
+frontend/.env.local
+frontend/.env
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# ── General ──
+.DS_Store
+Thumbs.db
+*.log
