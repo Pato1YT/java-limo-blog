@@ -25,7 +25,9 @@ Plataforma web del club que incluye:
 
 ## Estructura del proyecto
 java-limo-blog/
+
 ├── backend/       # Django REST Framework
+
 └── frontend/      # Next.js 16
 
 ## Instalación local
